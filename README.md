@@ -22,6 +22,18 @@ The above command runs appium proxy. Now run the actual test, like:
 python testandroidchrome.py
 ```
 ## Sample script on Windows PC
+Download and install Windows App Driver (https://github.com/Microsoft/WinAppDriver)
+
+Now run appium, like
+```batch
+appium
+```
+Note that Appium should have Windows Application Driver as part of the installation. Otherwise install manually.
+
+Now run the actual script, like:
+```batch
+python testcalc.py
+```
 
 References:  
 [Automatic Discovery of Chrome Driver](https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md#automatic-discovery-of-compatible-chromedriver)  
