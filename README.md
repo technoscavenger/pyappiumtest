@@ -16,3 +16,7 @@ To run the test do:
 ```batch
 appium --allow-insecure chromedriver_autodownload
 ```
+The above command runs appium proxy. Now run the actual test, like:
+```batch
+python testandroidchrome.py
+```
