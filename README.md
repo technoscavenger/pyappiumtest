@@ -1,5 +1,6 @@
 # pyappiumtest
-Python Appium sample script
+
+## Python Appium sample script on Android device
 
 ```batch
 conda create --prefix c:\y\envs\appiumenv conda pip
@@ -20,3 +21,8 @@ The above command runs appium proxy. Now run the actual test, like:
 ```batch
 python testandroidchrome.py
 ```
+## Sample script on Windows PC
+
+References:  
+[Automatic Discovery of Chrome Driver](https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md#automatic-discovery-of-compatible-chromedriver)  
+[Mostly copied from Appium sampmles](https://github.com/microsoft/WinAppDriver/tree/master/Samples/Python)
